@@ -1,7 +1,5 @@
 # Hierarchical trust decoder with raw syndrome passthrough
 
-This is a separate implementation of the Team Lead's hierarchy. The earlier partial-correction submission remains separate. This architecture does not apply D1's corrections before D2 or D3.
-
 ## Architecture
 
 1. Shared feature extraction describes the original 70-bit detector pattern: weight, connectivity among fired detectors, fired-edge density, and time span. Adjacency means two detectors share an error mechanism in the supplied circuit model. No surface-code boundary features are assumed.
@@ -65,23 +63,5 @@ NUMBA_NUM_THREADS=8 OPENBLAS_NUM_THREADS=1 .venv/bin/python verify_csv.py --test
 
 `calibrate.py` and `explore.py` reproduce tuning using the supplied calibration fixtures. They overwrite `gate.json`; preserve the selected configuration if reproducing the delivered CSV. `validate.py` samples fresh held-out data and reproduces the paired comparison. `check_handin.py` measures two full 100,000-shot decode calls.
 
-The available test environment is Python 3.12. Python 3.13 and the organiser's NVIDIA B200/48-core environment remain untested. See BUILD_REPORT.md for generation and reproduction checks. The original circuit files' license is retained in UPSTREAM_LICENSE.
+The available test environment is Python 3.12. 
 
-## Decision flow
-
-```mermaid
-flowchart TD
-    S["Original syndrome"] --> B["Shared raw-input BP"]
-    S --> F["Syndrome features"]
-    B --> D1["D1: small search"]
-    B --> D2["D2: strong search"]
-    D1 --> G{"Disagreement, diagnostic and complexity?"}
-    D2 --> G
-    F --> G
-    G -->|No| R["Return D2"]
-    G -->|Yes| D3["D3: expanded search"]
-    S --> D3
-    D3 --> V{"Candidate verified?"}
-    V -->|Yes| O["Return D3 prediction"]
-    V -->|No| R
-```
