@@ -1,0 +1,25 @@
+{
+  "results": {
+    "1": {
+      "median_seconds": 4.307151442000077,
+      "runs": [
+        4.307151442000077,
+        4.256189814999971,
+        4.338753128999997
+      ],
+      "shots": 512
+    },
+    "8": {
+      "median_seconds": 0.9524993330001053,
+      "runs": [
+        0.9524993330001053,
+        0.9487317729999631,
+        1.0684375900000305
+      ],
+      "shots": 512
+    }
+  },
+  "speedup": 4.5219469376779085,
+  "thread_invariant_predictions": true,
+  "note": "local warmed benchmark; excludes imports; same 512 shots; no concurrent decoding job"
+}

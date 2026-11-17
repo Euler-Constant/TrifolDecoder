@@ -1,0 +1,45 @@
+X unique patterns 79304 threads 8
+X 4096 / 79304 elapsed 6.6 s
+X 8192 / 79304 elapsed 13.1 s
+X 12288 / 79304 elapsed 19.1 s
+X 16384 / 79304 elapsed 26.1 s
+X 20480 / 79304 elapsed 32.9 s
+X 24576 / 79304 elapsed 38.5 s
+X 28672 / 79304 elapsed 44.7 s
+X 32768 / 79304 elapsed 50.6 s
+X 36864 / 79304 elapsed 57.4 s
+X 40960 / 79304 elapsed 64.5 s
+X 45056 / 79304 elapsed 71.9 s
+X 49152 / 79304 elapsed 79.7 s
+X 53248 / 79304 elapsed 88.1 s
+X 57344 / 79304 elapsed 95.7 s
+X 61440 / 79304 elapsed 102.9 s
+X 65536 / 79304 elapsed 110.5 s
+X 69632 / 79304 elapsed 118.5 s
+X 73728 / 79304 elapsed 126.9 s
+X 77824 / 79304 elapsed 134.4 s
+X 79304 / 79304 elapsed 137.8 s
+X COMPLETE {"seconds": 138.0359021690001, "shots": 100000, "route_rate": 0.04867, "disagreement_rate": 0.04966, "invalid_d3_fallbacks": 0}
+Z unique patterns 78531 threads 8
+Z 4096 / 78531 elapsed 6.7 s
+Z 8192 / 78531 elapsed 13.3 s
+Z 12288 / 78531 elapsed 19.3 s
+Z 16384 / 78531 elapsed 25.9 s
+Z 20480 / 78531 elapsed 32.8 s
+Z 24576 / 78531 elapsed 38.7 s
+Z 28672 / 78531 elapsed 44.6 s
+Z 32768 / 78531 elapsed 52.0 s
+Z 36864 / 78531 elapsed 58.4 s
+Z 40960 / 78531 elapsed 65.6 s
+Z 45056 / 78531 elapsed 73.6 s
+Z 49152 / 78531 elapsed 81.4 s
+Z 53248 / 78531 elapsed 89.0 s
+Z 57344 / 78531 elapsed 96.3 s
+Z 61440 / 78531 elapsed 103.6 s
+Z 65536 / 78531 elapsed 109.3 s
+Z 69632 / 78531 elapsed 115.6 s
+Z 73728 / 78531 elapsed 122.0 s
+Z 77824 / 78531 elapsed 128.5 s
+Z 78531 / 78531 elapsed 129.9 s
+Z COMPLETE {"seconds": 130.12101622199998, "shots": 100000, "route_rate": 0.04744, "disagreement_rate": 0.04874, "invalid_d3_fallbacks": 0}
+VERIFIED deliverables/submission_hierarchical.csv (200000, 5)

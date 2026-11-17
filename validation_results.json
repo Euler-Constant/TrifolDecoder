@@ -1,0 +1,60 @@
+{
+  "basis_results": [
+    {
+      "basis": "X",
+      "shots": 10000,
+      "d1_ler": 0.049725,
+      "d2_ler": 0.038875,
+      "hierarchical_ler": 0.037025,
+      "route_rate": 0.0474,
+      "disagreement_rate": 0.0491,
+      "recovered_bits": 135,
+      "introduced_bits": 61,
+      "d2_wrong_bits_on_agreement": 1093,
+      "d2_wrong_bits_not_routed": 1105,
+      "paired_improvement": 0.00185,
+      "paired_se": 0.00045790688777500076,
+      "seconds": 15.094017230999953,
+      "invalid_d3": 0
+    },
+    {
+      "basis": "Z",
+      "shots": 10000,
+      "d1_ler": 0.051075,
+      "d2_ler": 0.0401,
+      "hierarchical_ler": 0.038425,
+      "route_rate": 0.0496,
+      "disagreement_rate": 0.0508,
+      "recovered_bits": 156,
+      "introduced_bits": 89,
+      "d2_wrong_bits_on_agreement": 1100,
+      "d2_wrong_bits_not_routed": 1109,
+      "paired_improvement": 0.001675,
+      "paired_se": 0.000549203605195738,
+      "seconds": 14.567205895999905,
+      "invalid_d3": 0
+    }
+  ],
+  "gate": {
+    "tau_conf": 0.05,
+    "tau_weight": 4.0,
+    "tau_component": 4.0
+  },
+  "base_config": {
+    "fast_iterations": 8,
+    "strong_iterations": 60,
+    "nfree1": 32,
+    "npair1": 8,
+    "nfree2": 256,
+    "npair2": 64,
+    "nfree3": 2048,
+    "npair3": 256
+  },
+  "d2_ler": 0.039487499999999995,
+  "hierarchical_ler": 0.037725,
+  "paired_improvement": 0.0017625,
+  "paired_95_ci": [
+    0.0010617628002463006,
+    0.0024632371997536993
+  ]
+}

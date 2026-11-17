@@ -1,0 +1,6 @@
+{
+  "structure_passed": true,
+  "rows": 200000,
+  "fresh_subset_matches": 512,
+  "hashes_passed": true
+}

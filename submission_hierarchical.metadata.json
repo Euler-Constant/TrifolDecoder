@@ -1,0 +1,43 @@
+{
+  "architecture": "raw_syndrome_hierarchical_trust",
+  "threads": 8,
+  "gate": {
+    "tau_conf": 0.05,
+    "tau_weight": 4.0,
+    "tau_component": 4.0
+  },
+  "base_config": {
+    "fast_iterations": 8,
+    "strong_iterations": 60,
+    "nfree1": 32,
+    "npair1": 8,
+    "nfree2": 256,
+    "npair2": 64,
+    "nfree3": 2048,
+    "npair3": 256
+  },
+  "rows": 200000,
+  "basis": {
+    "X": {
+      "seconds": 138.0359021690001,
+      "shots": 100000,
+      "route_rate": 0.04867,
+      "disagreement_rate": 0.04966,
+      "invalid_d3_fallbacks": 0
+    },
+    "Z": {
+      "seconds": 130.12101622199998,
+      "shots": 100000,
+      "route_rate": 0.04744,
+      "disagreement_rate": 0.04874,
+      "invalid_d3_fallbacks": 0
+    }
+  },
+  "source_hashes": {
+    "decoder.py": "10f6ab75ab4904e782513bdcd1f2cf64d901c78a4ad4deae64ce227a58e0c744",
+    "kernels.py": "87601f89b329d56c09ad549c2ad0f0ae8631a584c4b76048d8825de98b9fe25f",
+    "circuit_model.py": "40c0c97f7aa02061f25ca0a4e5a0c5987eb2c2597ac3ac5c7c27712389685342",
+    "gate.json": "95ee63389fda971b2b126cae42fdc9c5d05f5ea4e478f867f3ac3f8ebe66a33d"
+  },
+  "csv_sha256": "13c51c546cdec5ae514ef8113fe3b22b97543b3f42b2a5f9a2aa188e565349a4"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "thresholds": {
+      "tau_conf": 0.05,
+      "tau_weight": 4.0,
+      "tau_component": 4.0
+    },
+    "calibration_ler": 0.034541666666666665,
+    "d2_calibration_ler": 0.036,
+    "calibration_route_rate": 0.05216666666666667,
+    "calibration_shots": 6000,
+    "base_config": {
+      "fast_iterations": 8,
+      "strong_iterations": 60,
+      "nfree1": 32,
+      "npair1": 8,
+      "nfree2": 256,
+      "npair2": 64,
+      "nfree3": 1024,
+      "npair3": 128
+    },
+    "timing_seconds": {
+      "X": 4.5014394079998965,
+      "Z": 4.034953234999875
+    },
+    "selection": "minimum calibration bit error, tie-break lower routing rate"
+  },
+  {
+    "thresholds": {
+      "tau_conf": 0.05,
+      "tau_weight": 4.0,
+      "tau_component": 4.0
+    },
+    "calibration_ler": 0.03375,
+    "d2_calibration_ler": 0.036,
+    "calibration_route_rate": 0.05216666666666667,
+    "calibration_shots": 6000,
+    "base_config": {
+      "fast_iterations": 8,
+      "strong_iterations": 60,
+      "nfree1": 32,
+      "npair1": 8,
+      "nfree2": 256,
+      "npair2": 64,
+      "nfree3": 2048,
+      "npair3": 256
+    },
+    "timing_seconds": {
+      "X": 4.515797586999952,
+      "Z": 4.112036516999979
+    },
+    "selection": "minimum calibration bit error, tie-break lower routing rate"
+  },
+  {
+    "thresholds": {
+      "tau_conf": 0.05,
+      "tau_weight": 4.0,
+      "tau_component": 4.0
+    },
+    "calibration_ler": 0.033791666666666664,
+    "d2_calibration_ler": 0.036,
+    "calibration_route_rate": 0.05216666666666667,
+    "calibration_shots": 6000,
+    "base_config": {
+      "fast_iterations": 8,
+      "strong_iterations": 60,
+      "nfree1": 32,
+      "npair1": 8,
+      "nfree2": 256,
+      "npair2": 64,
+      "nfree3": 2390,
+      "npair3": 384
+    },
+    "timing_seconds": {
+      "X": 4.248777109000002,
+      "Z": 4.344355545999861
+    },
+    "selection": "minimum calibration bit error, tie-break lower routing rate"
+  }
+]

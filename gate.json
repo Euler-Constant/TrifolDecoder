@@ -1,0 +1,676 @@
+{
+  "thresholds": {
+    "tau_conf": 0.05,
+    "tau_weight": 4.0,
+    "tau_component": 4.0
+  },
+  "calibration_ler": 0.03375,
+  "d2_calibration_ler": 0.036,
+  "calibration_route_rate": 0.05216666666666667,
+  "calibration_shots": 6000,
+  "base_config": {
+    "fast_iterations": 8,
+    "strong_iterations": 60,
+    "nfree1": 32,
+    "npair1": 8,
+    "nfree2": 256,
+    "npair2": 64,
+    "nfree3": 2048,
+    "npair3": 256
+  },
+  "timing_seconds": {
+    "X": 4.515797586999952,
+    "Z": 4.112036516999979
+  },
+  "selection": "minimum calibration bit error, tie-break lower routing rate",
+  "grid_results": [
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05216666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05216666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.051833333333333335
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.04816666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.051833333333333335
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.05,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.04833333333333333
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.052833333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.15,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.0525
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.0525
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.05216666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.0485
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.053
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.05216666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.3,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.0485
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.5,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.0485
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 0.75,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 1.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 1.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 1.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 4.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 4.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 4.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05266666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 8.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 8.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 8.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034083333333333334,
+      "route_rate": 0.0485
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 12.0,
+        "tau_component": 2.0
+      },
+      "ler": 0.03375,
+      "route_rate": 0.05316666666666667
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 12.0,
+        "tau_component": 4.0
+      },
+      "ler": 0.033916666666666664,
+      "route_rate": 0.052333333333333336
+    },
+    {
+      "thresholds": {
+        "tau_conf": 1.01,
+        "tau_weight": 12.0,
+        "tau_component": 8.0
+      },
+      "ler": 0.034333333333333334,
+      "route_rate": 0.0455
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+PASS: exact tiny-problem costs and class probability sums
+X PASS: raw passthrough, shared-BP equivalence, ordering, routing, fallback selection
+Z PASS: raw passthrough, shared-BP equivalence, ordering, routing, fallback selection
+PASS: all hierarchy checks
