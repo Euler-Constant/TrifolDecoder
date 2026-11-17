@@ -1,5 +1,6 @@
 # Hierarchical trust decoder with raw syndrome passthrough
 
+
 ## Architecture
 
 1. Shared feature extraction describes the original 70-bit detector pattern: weight, connectivity among fired detectors, fired-edge density, and time span. Adjacency means two detectors share an error mechanism in the supplied circuit model. No surface-code boundary features are assumed.
